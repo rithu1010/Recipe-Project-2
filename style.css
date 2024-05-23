@@ -1,0 +1,13 @@
+.RecipeBox{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid black;
+}
+.Recepiesnavlink {
+    border: none;
+    border-left: thick;
+    border-right: thick;
+}
+.nav-tabs .nav-link{
+    border: 1px solid #fff; /* Apply border to all links */
+
+}
