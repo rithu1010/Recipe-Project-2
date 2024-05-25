@@ -1,13 +1,120 @@
-.RecipeBox{
+.RecipeBox {
     background-color: rgb(255, 255, 255);
-    border-bottom: 1px solid black;
 }
-.Recepiesnavlink {
-    border: none;
-    border-left: thick;
-    border-right: thick;
-}
-.nav-tabs .nav-link{
-    border: 1px solid #fff; /* Apply border to all links */
 
+.nav-link {
+    border: #Fff;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid #fff;
+    /* Apply border to all links */
+
+}
+
+img {
+    height: 150px;
+    width: 100%;
+}
+
+.item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.item-card {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.item-card-title {
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.item-card-title i {
+    font-size: 15px;
+    transition: 1s;
+    cursor: pointer;
+    color: #ffa710
+}
+
+.card-title i:hover {
+    transform: scale(1.25) rotate(100deg);
+    color: #18d4ca;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-text {
+    height: 80px;
+}
+
+.card::before,
+.card::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: scale3d(0, 0, 1);
+    transition: transform .3s ease-out 0s;
+    background: rgba(255, 255, 255, 0.1);
+    content: '';
+    pointer-events: none;
+}
+
+.card::before {
+    transform-origin: left top;
+}
+
+.card::after {
+    transform-origin: right bottom;
+}
+
+.card:hover::before,
+.card:hover::after,
+.card:focus::before,
+.card:focus::after {
+    transform: scale3d(1, 1, 1);
+}
+
+.latestRecipeText {
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+body {
+    min-height: 100vh;
+    background: #fafafa;
+}
+
+
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.social-link:hover, .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+}
+
+.progress {
+    height: 10px;
 }
