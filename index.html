@@ -16,39 +16,32 @@
         <div class="row">
             <div class="col-12">
                 <div style="display:flex;justify-content: end;margin-right: 160px;">
+
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item" style="position: absolute;left:90px;right:12px">
-                            <a class="nav-link"
-                                style="border:#Fff;padding: 15px;font-weight:700;color:#000307;font-size: x-large;margin-top:-4px">CHOW</a>
+                            <a class="nav-link"     style="border:#Fff;font-weight:700;font-size: x-large;" ><span style="margin-top:-4px;padding: 15px;">CHOW</span></a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link active"   style="border:#Fff;padding: 15px;font-weight:600;"  data-bs-toggle="tab" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active " data-bs-toggle="tab"
-                                style="border:#Fff;padding: 15px;font-weight:600;" href="#home">Home</a>
+                            <a class="nav-link"   style="border:red;padding: 15px;font-weight:500;color: rgb(169, 168, 168);"  data-bs-toggle="tab" href="#menu1">Demos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab"
-                                style="border:#Fff;padding: 15px;font-weight:500;color:#6d7682;" href="#menu1">Demos</a>
+                            <a class="nav-link"   style="border:red;padding: 15px;font-weight:500;color: rgb(169, 168, 168)"  data-bs-toggle="tab" href="#menu2">Recipes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab"
-                                style="border:#Fff;padding: 15px;font-weight:500;color:#6d7682;"
-                                href="#menu2">Recipes</a>
+                            <a class="nav-link"   style="border:red;padding: 15px;font-weight:500;color: rgb(169, 168, 168)"  data-bs-toggle="tab" href="#menu3">Pages</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab"
-                                style="border:#Fff;padding: 15px;font-weight:500;color:#6d7682;" href="#menu3">Pages</a>
+                            <a class="nav-link"   style="border:red;padding: 15px;font-weight:500;color: rgb(169, 168, 168)"  data-bs-toggle="tab" href="#menu4">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab"
-                                style="border:#Fff;padding: 15px;font-weight:500;color:#6d7682;" href="#menu4">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="tab"
-                                style="border:#Fff;padding: 15px;font-weight:500;color:#6d7682;" href="#menu5">Submit
-                                Recipe</a>
+                            <a class="nav-link"   style="border:red;padding: 15px;font-weight:500;color: rgb(169, 168, 168)"  data-bs-toggle="tab" href="#menu5">Submit Recipe</a>
                         </li>
                     </ul>
                 </div>
+
             </div>
         </div>
 
@@ -58,10 +51,9 @@
 
     <!-- Tab panes -->
     <div class="tab-content">
-        <div id="home" class="container-fluid tab-pane active"><br>
+        <div id="home" class="tab-pane fade show active">
             <!-- Carousel -->
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
                 <!-- Indicators/dots -->
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
@@ -193,193 +185,202 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container mt-0">
-            <!-- Third Row [Profiles]-->
-            <h4 class="latestRecipeText">Latest Recipes</h4>
-            <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.</p>
-            <div class="row pb-5 mb-4">
+            <div class="container mt-0">
+                <!-- Third Row [Profiles]-->
+                <h4 class="latestRecipeText">Latest Recipes</h4>
+                <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt.</p>
+                <div class="row pb-5 mb-4">
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                    <!-- Card-->
-                    <div class="card rounded shadow-sm border-0">
-                        <div class="card-body p-0">
-                            <div class="bg-primary px-5 py-4 text-center card-img-top"><img src="./images/image1.jpeg"
-                                    alt="..." width="100" style="height:160px"
-                                    class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
-                                <h5 class="text-white mb-0">Emma Nevoresky</h5>
-                                <p class="small text-white mb-0">Elite user</p>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <!-- Card-->
+                        <div class="card rounded shadow-sm border-0">
+                            <div class="card-body p-0">
+                                <div class="bg-primary px-5 py-4 text-center card-img-top"><img
+                                        src="./images/image1.jpeg" alt="..." width="100" style="height:160px"
+                                        class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
+                                    <h5 class="text-white mb-0">Emma Nevoresky</h5>
+                                    <p class="small text-white mb-0">Elite user</p>
+                                </div>
+                                <div class="p-4 d-flex justify-content-center">
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <h5 class="font-weight-bold mb-0 d-block">241</h5><small
+                                                class="text-muted"><i
+                                                    class="fa fa-picture-o mr-1 text-primary"></i>Photos</small>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <h5 class="font-weight-bold mb-0 d-block">84K</h5><small
+                                                class="text-muted"><i
+                                                    class="fa fa-user-circle-o mr-1 text-primary"></i>Followers</small>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="p-4 d-flex justify-content-center">
-                                <ul class="list-inline mb-0">
-                                    <li class="list-inline-item">
-                                        <h5 class="font-weight-bold mb-0 d-block">241</h5><small class="text-muted"><i
-                                                class="fa fa-picture-o mr-1 text-primary"></i>Photos</small>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <h5 class="font-weight-bold mb-0 d-block">84K</h5><small class="text-muted"><i
-                                                class="fa fa-user-circle-o mr-1 text-primary"></i>Followers</small>
-                                    </li>
-                                </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <!-- Card-->
+                        <div class="card rounded shadow-sm border-0">
+                            <div class="card-body p-0">
+                                <div class="bg-success px-5 py-4 text-center card-img-top"><img
+                                        src="./images/image2.jpeg" alt="..." width="100" style="height:160px"
+                                        class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
+                                    <h5 class="text-white mb-0">Samuel Hardy</h5>
+                                    <p class="small text-white mb-0">Elite user</p>
+                                </div>
+                                <div class="p-4 d-flex justify-content-center">
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <h5 class="font-weight-bold mb-0 d-block">241</h5><small
+                                                class="text-muted"><i
+                                                    class="fa fa-picture-o mr-1 text-success"></i>Photos</small>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <h5 class="font-weight-bold mb-0 d-block">84K</h5><small
+                                                class="text-muted"><i
+                                                    class="fa fa-user-circle-o mr-1 text-success"></i>Followers</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <!-- Card-->
+                        <div class="card rounded shadow-sm border-0">
+                            <div class="card-body p-0">
+                                <div class="bg-info px-5 py-4 text-center card-img-top"><img src="./images/image3.jpeg"
+                                        style="height:160px" alt="..." width="100"
+                                        class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
+                                    <h5 class="text-white mb-0">Tom Sunderland</h5>
+                                    <p class="small text-white mb-0">Elite user</p>
+                                </div>
+                                <div class="p-4 d-flex justify-content-center">
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <h5 class="font-weight-bold mb-0 d-block">241</h5><small
+                                                class="text-muted"><i
+                                                    class="fa fa-picture-o mr-1 text-info"></i>Photos</small>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <h5 class="font-weight-bold mb-0 d-block">84K</h5><small
+                                                class="text-muted"><i
+                                                    class="fa fa-user-circle-o mr-1 text-info"></i>Followers</small>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <!-- Card-->
+                        <div class="card rounded shadow-sm border-0">
+                            <div class="card-body p-0">
+                                <div class="bg-warning px-5 py-4 text-center card-img-top"><img
+                                        src="./images/image4.jpeg" alt="..." width="100" style="height:160px"
+                                        class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
+                                    <h5 class="text-white mb-0">John Tarly</h5>
+                                    <p class="small text-white mb-0">Elite user</p>
+                                </div>
+                                <div class="p-4 d-flex justify-content-center">
+                                    <ul class="list-inline mb-0">
+                                        <li class="list-inline-item">
+                                            <h5 class="font-weight-bold mb-0 d-block">241</h5><small
+                                                class="text-muted"><i
+                                                    class="fa fa-picture-o mr-1 text-warning"></i>Photos</small>
+                                        </li>
+                                        <li class="list-inline-item">
+                                            <h5 class="font-weight-bold mb-0 d-block">84K</h5><small
+                                                class="text-muted"><i
+                                                    class="fa fa-user-circle-o mr-1 text-warning"></i>Followers</small>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                    <!-- Card-->
-                    <div class="card rounded shadow-sm border-0">
-                        <div class="card-body p-0">
-                            <div class="bg-success px-5 py-4 text-center card-img-top"><img src="./images/image2.jpeg"
-                                    alt="..." width="100" style="height:160px"
-                                    class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
-                                <h5 class="text-white mb-0">Samuel Hardy</h5>
-                                <p class="small text-white mb-0">Elite user</p>
-                            </div>
-                            <div class="p-4 d-flex justify-content-center">
-                                <ul class="list-inline mb-0">
-                                    <li class="list-inline-item">
-                                        <h5 class="font-weight-bold mb-0 d-block">241</h5><small class="text-muted"><i
-                                                class="fa fa-picture-o mr-1 text-success"></i>Photos</small>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <h5 class="font-weight-bold mb-0 d-block">84K</h5><small class="text-muted"><i
-                                                class="fa fa-user-circle-o mr-1 text-success"></i>Followers</small>
-                                    </li>
-                                </ul>
+
+                <!-- First Row [Statistics]-->
+                <h2 class="font-weight-bold mb-2">Latest Statistics</h2>
+                <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt.</p>
+
+                <div class="row pb-5">
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <!-- Card-->
+                        <div class="card rounded shadow-sm border-0">
+                            <div class="card-body p-5"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+                                <h5>Products Sales</h5>
+                                <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit.</p>
+                                <div class="progress rounded-pill">
+                                    <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 70%;" class="progress-bar rounded-pill"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                    <!-- Card-->
-                    <div class="card rounded shadow-sm border-0">
-                        <div class="card-body p-0">
-                            <div class="bg-info px-5 py-4 text-center card-img-top"><img src="./images/image3.jpeg"
-                                    style="height:160px" alt="..." width="100"
-                                    class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
-                                <h5 class="text-white mb-0">Tom Sunderland</h5>
-                                <p class="small text-white mb-0">Elite user</p>
-                            </div>
-                            <div class="p-4 d-flex justify-content-center">
-                                <ul class="list-inline mb-0">
-                                    <li class="list-inline-item">
-                                        <h5 class="font-weight-bold mb-0 d-block">241</h5><small class="text-muted"><i
-                                                class="fa fa-picture-o mr-1 text-info"></i>Photos</small>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <h5 class="font-weight-bold mb-0 d-block">84K</h5><small class="text-muted"><i
-                                                class="fa fa-user-circle-o mr-1 text-info"></i>Followers</small>
-                                    </li>
-                                </ul>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <!-- Card -->
+                        <div class="card rounded shadow-sm border-0">
+                            <div class="card-body p-5"><i class="fa fa-tasks fa-2x mb-3 text-success"></i>
+                                <h5>Completed Tasks</h5>
+                                <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit.</p>
+                                <div class="progress rounded-pill">
+                                    <div role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 80%;" class="progress-bar bg-success rounded-pill"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                    <!-- Card-->
-                    <div class="card rounded shadow-sm border-0">
-                        <div class="card-body p-0">
-                            <div class="bg-warning px-5 py-4 text-center card-img-top"><img src="./images/image4.jpeg"
-                                    alt="..." width="100" style="height:160px"
-                                    class="rounded-circle mb-2 img-thumbnail d-block mx-auto">
-                                <h5 class="text-white mb-0">John Tarly</h5>
-                                <p class="small text-white mb-0">Elite user</p>
-                            </div>
-                            <div class="p-4 d-flex justify-content-center">
-                                <ul class="list-inline mb-0">
-                                    <li class="list-inline-item">
-                                        <h5 class="font-weight-bold mb-0 d-block">241</h5><small class="text-muted"><i
-                                                class="fa fa-picture-o mr-1 text-warning"></i>Photos</small>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <h5 class="font-weight-bold mb-0 d-block">84K</h5><small class="text-muted"><i
-                                                class="fa fa-user-circle-o mr-1 text-warning"></i>Followers</small>
-                                    </li>
-                                </ul>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <!-- Card -->
+                        <div class="card rounded shadow-sm border-0">
+                            <div class="card-body p-5"><i class="fa fa-user-circle-o fa-2x mb-3 text-info"></i>
+                                <h5>New Users</h5>
+                                <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit.</p>
+                                <div class="progress rounded-pill">
+                                    <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 70%;" class="progress-bar bg-info rounded-pill"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-
-            <!-- First Row [Statistics]-->
-            <h2 class="font-weight-bold mb-2">Latest Statistics</h2>
-            <p class="font-italic text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt.</p>
-
-            <div class="row pb-5">
-                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                    <!-- Card-->
-                    <div class="card rounded shadow-sm border-0">
-                        <div class="card-body p-5"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
-                            <h5>Products Sales</h5>
-                            <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit.</p>
-                            <div class="progress rounded-pill">
-                                <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                                    style="width: 70%;" class="progress-bar rounded-pill"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                     <!-- Card -->
-                    <div class="card rounded shadow-sm border-0">
-                        <div class="card-body p-5"><i class="fa fa-tasks fa-2x mb-3 text-success"></i>
-                            <h5>Completed Tasks</h5>
-                            <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit.</p>
-                            <div class="progress rounded-pill">
-                                <div role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"
-                                    style="width: 80%;" class="progress-bar bg-success rounded-pill"></div>
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                        <div class="card rounded shadow-sm border-0">
+                            <div class="card-body p-5"><i class="fa fa-shopping-bag fa-2x mb-3 text-warning"></i>
+                                <h5>New Products</h5>
+                                <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit.</p>
+                                <div class="progress rounded-pill">
+                                    <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 70%;" class="progress-bar bg-warning rounded-pill"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                    <!-- Card -->
-                    <div class="card rounded shadow-sm border-0">
-                        <div class="card-body p-5"><i class="fa fa-user-circle-o fa-2x mb-3 text-info"></i>
-                            <h5>New Users</h5>
-                            <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit.</p>
-                            <div class="progress rounded-pill">
-                                <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                                    style="width: 70%;" class="progress-bar bg-info rounded-pill"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card -->
-                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                    <div class="card rounded shadow-sm border-0">
-                        <div class="card-body p-5"><i class="fa fa-shopping-bag fa-2x mb-3 text-warning"></i>
-                            <h5>New Products</h5>
-                            <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit.</p>
-                            <div class="progress rounded-pill">
-                                <div role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-                                    style="width: 70%;" class="progress-bar bg-warning rounded-pill"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-
         </div>
 
 
 
 
-        <div id="menu1" class="container tab-pane fade"><br>
+
+        <div id="menu1" class="tab-pane fade">
             <h3>Demos</h3>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat.</p>
