@@ -107,6 +107,7 @@ body {
     border-radius: 50%;
     transition: all 0.3s;
     font-size: 0.9rem;
+    text-decoration-line:none;
 }
 
 .social-link:hover, .social-link:focus {
