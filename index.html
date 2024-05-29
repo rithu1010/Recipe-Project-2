@@ -3,8 +3,8 @@
 <head>
     <title> Chow </title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="...">
-    integrity="...">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -19,38 +19,33 @@
             <div class="col-12">
                 <div style="display:flex;justify-content: end;margin-right: 160px;">
 
-                    <ul class="nav nav-tabs" role="tablist">
-                        <li class="nav-item" style="position: absolute;left:90px;right:12px">
-                            <a class="nav-link" style="border:#Fff;font-weight:700;font-size: x-large;"><span
+                    <ul class="nav nav-tabs navtabitem" role="tablist">
+                        <li class="nav-item " style="position:absolute;left:90px;right:12px">
+                            <a class="nav-link" style="border:#Fff;font-weight:700;font-size:x-large;"><span
                                     style="margin-top:-4px;padding: 15px;">CHOW</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" style="border:#Fff;padding: 15px;font-weight:600;"
+                        <li class="nav-item ">
+                            <a class="nav-link navitem1" 
                                 data-bs-toggle="tab" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"
-                                style="border:red;padding: 15px;font-weight:500;color: rgb(169, 168, 168);"
+                            <a class="nav-link navitem1"
                                 data-bs-toggle="tab" href="#menu1">Demos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"
-                                style="border:red;padding: 15px;font-weight:500;color: rgb(169, 168, 168)"
+                            <a class="nav-link navitem1"
                                 data-bs-toggle="tab" href="#menu2">Recipes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"
-                                style="border:red;padding: 15px;font-weight:500;color: rgb(169, 168, 168)"
+                            <a class="nav-link navitem1"
                                 data-bs-toggle="tab" href="#menu3">Pages</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"
-                                style="border:red;padding: 15px;font-weight:500;color: rgb(169, 168, 168)"
+                            <a class="nav-link navitem1"
                                 data-bs-toggle="tab" href="#menu4">Shop</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link"
-                                style="border:red;padding: 15px;font-weight:500;color: rgb(169, 168, 168)"
+                        <li class="nav-item ">
+                            <a class="nav-link navitem1"
                                 data-bs-toggle="tab" href="#menu5">Submit Recipe</a>
                         </li>
                     </ul>
@@ -388,13 +383,35 @@
                 </div>
 
             </div>
+            <div class = "__area text-center">
+                <a href = "#" class = "__card">
+                    <button class = "__favorit"><i class = "la la-heart-o"></i></button>
+                  <img src = "./images/image11.jpeg" class="img-fluid __img"/>
+                  <div class = "__card_detail text-left">
+                    <h4>Fiorella</h4>
+                    <p>
+                      2238 Polk St, San Francisco, CA 94109, United States
+                    </p>
+                    <div class = "__type">
+                      <span href = "#Italian">Italian</span>
+                      <span href = "#Vegetarian">Vegetarian</span>
+                      <span href = "#Pizza">Pizza</span>
+                      <span href = "#off">10%</span>
+                    </div>
+                    <div class = "__detail">
+                      <i class = "la la-star-o"></i> <span>5.0</span> <i class = "la la-clock-o"></i> <span>30 m</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              
         </div>
 
 
 
 
 
-        <div id="menu1" class="container" class="tab-pane fade">
+        <div id="menu1" class="container tab-pane fade"><br>
             <h3>Demos</h3>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat.</p>
