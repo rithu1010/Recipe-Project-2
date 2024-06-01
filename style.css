@@ -203,15 +203,44 @@ body {
 	background: #fafafa;
 }
 
+.carousalImg1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: 210px;
+	left: 13%;
+	right: 12%;
+}
+
+.CarosalTextsub {
+	color: #dedede;
+	font-size: 25px;
+	font-family: 'Dancing Script', cursive;
+	flex-grow: 1;
+	font-weight: 800;
+	text-align: center;
+	text-decoration: none;
+}
+
+.CarosalText1 {
+	color: white;
+	font-size: 35px;
+	font-family: 'Times New Roman', Times, serif;
+	flex-grow: 1;
+	font-weight: 800;
+	text-align: center;
+	text-decoration: none;
+}
+
 
 .social-link {
 	width: 30px;
 	height: 30px;
-	border: 1px solid #ddd;
+	border: 1px solid black;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #666;
+	color: black;
 	border-radius: 50%;
 	transition: all 0.3s;
 	font-size: 0.9rem;
@@ -220,9 +249,9 @@ body {
 
 .social-link:hover,
 .social-link:focus {
-	background: #ddd;
+	background: black;
 	text-decoration: none;
-	color: #555;
+	color: white;
 }
 
 .progress {
