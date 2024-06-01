@@ -270,10 +270,11 @@ body {
 
 .page_title {
     padding: 30px 0px;
+    /* color: white; */
 }
 
 .page_title h1 {
-    color: #c0392b;
+    color: white;
     font-weight: 700;
     line-height: 2;
     margin-bottom: 0;
@@ -282,7 +283,7 @@ body {
 }
 
 .page_title h1::before {
-    background: #c0392b;
+    background: white;
     width: 70px;
     height: 2px;
     position: absolute;
@@ -295,7 +296,7 @@ body {
 .page_title h1::after {
     position: absolute;
     content: '';
-    background: #fbc531;
+    background: white;
     width: 30px;
     height: 2px;
     top: 90%;
@@ -306,6 +307,7 @@ body {
 /* /Menu starts/ */
 .menu_tab {
     margin: 0 auto;
+    margin-bottom: 18px;
     justify-content: center;
 }
 
@@ -319,10 +321,10 @@ body {
 }
 
 .nav-tabs .nav-link.active {
-    background: #c0392b;
-    color: #fff;
+    background: white;
+    color: black;
     font-weight: 700;
-    border: 1px solid #c0392b;
+    border: 1px solid black;
     text-transform: capitalize;
 }
 
@@ -330,10 +332,16 @@ body {
     color: #000;
 }
 
-.nav-tabs .nav-link:hover {
-    background: #c0392b;
+.nav-tabs .nav-link {
+    background: black;
     color: #fff;
-    border: 1px solid #c0392b;
+    /* border: 1px solid white; */
+}
+
+.nav-tabs .nav-link:hover {
+    background: black;
+    color: #fff;
+    border: 1px solid white;
 }
 
 .single_menu {
@@ -365,8 +373,9 @@ body {
 
 .menu_content h4 {
     font-size: 25px;
+    color: white;
     font-weight: 300;
-    border-bottom: 1px dashed #c0392b;
+    border-bottom: 1px dashed white;
     line-height: 2;
     text-transform: capitalize;
 }
@@ -380,6 +389,7 @@ body {
 }
 
 .menu_content p {
+    color: white;
     font-weight: 200;
     font-size: 16px;
     letter-spacing: 1px;
@@ -693,18 +703,20 @@ blockquote .small {
 .iconbox-title {
 	font: 700 28px/1.2 'Dancing Script', cursive;
 	margin: 0 0 18px;
+    color: white;
 }
 
 .module-title,
 .callout-text {
 	font-size: 50px;
+    color: white;
 }
 
 .module-subtitle {
 	font: 400 16px/1.2 'Crimson Text',  serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: #a7a9ac;
+	color: white;
 	margin: 0;
 }
 
@@ -992,7 +1004,7 @@ textarea.form-control {
 .callout, .callout h1, .callout h2, .callout h3, .callout h4, .callout h5, .callout h6,
 .module-dark, .module-dark h1, .module-dark h2, .module-dark h3, .module-dark h4, .module-dark h5, .module-dark h6,
 .intro-module, .intro-module h1, .intro-module h2, .intro-module h3, .intro-module h4, .intro-module h5, .intro-module h6 {
-	color: #fff;
+	color: white;
 }
 
 .module-header {
@@ -1040,7 +1052,7 @@ textarea.form-control {
 }
 
 .bg-dark-alfa-30::after {
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: white;
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -1051,7 +1063,7 @@ textarea.form-control {
 }
 
 .bg-dark-alfa-60::after {
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: white;
 	position: absolute;
 	position: absolute;
 	height: 100%;
@@ -1063,7 +1075,7 @@ textarea.form-control {
 }
 
 .bg-dark-alfa-90::after {
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: white;
 	position: absolute;
 	position: absolute;
 	height: 100%;
@@ -1079,7 +1091,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .callout {
-	background-color: #222;
+	background-color: white;
 	position: relative;
 	text-align: center;
 	padding: 180px 0;
@@ -1121,7 +1133,7 @@ textarea.form-control {
 }
 
 .video-background {
-	background-color: #000;
+	background-color: black;
 }
 
 .intro {
@@ -1143,7 +1155,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 .menu {
-	border-bottom: 1px dotted #DDD;
+	border-bottom: 1px dotted white;
 	padding: 0 0 10px;
 	margin: 0 0 20px;
 }
@@ -1151,15 +1163,20 @@ textarea.form-control {
 .menu-classic img {
 	margin: 0 0 10px;
 }
+.menu1{
+    margin-bottom: 18px;
+}
 
 .menu-title,
 .menu-price {
 	font-size: 16px;
 	margin: 0;
+    color: white;
 }
 
 .menu-detail {
 	font-size: 14px;
+    color: white;
 }
 
 .menu-price-detail {
@@ -1948,7 +1965,7 @@ position: absolute;
 
 .fa-examples > div {
 	padding: 0;
-	border: 1px solid #e5e5e5;
+	border: 1px solid white;
 	margin: -1px 0 0 -1px;
 	font-size: 13px;
 }
@@ -1958,7 +1975,7 @@ position: absolute;
 	margin-right: 5px;
 	min-width: 40px;
 	min-height: 40px;
-	border-right: 1px solid #f1f1f1;
+	border-right: 1px solid white;
 	line-height: 40px;
 	text-align: center;
 	font-size: 14px;
@@ -2003,7 +2020,8 @@ position: absolute;
     font-size: 1.5rem;
     margin: 0;
     text-transform: uppercase;
-    color: rgb(238, 187, 111);
+    /* color: rgb(238, 187, 111); */
+    color: white;
 }
 .brewery-title span{
     margin-top: -7px;
@@ -2033,7 +2051,7 @@ position: absolute;
 }
 
 .solid {
-    background: #FFFFFF;
+    background: white;
     height: 1.5px;
     margin-top: 5px;
 }
