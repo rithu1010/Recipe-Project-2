@@ -78,16 +78,21 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./images/carousalImg1.jpg" alt="Los Angeles" class="d-block"
-                            style="width:100%;height:550px;">
+                            style="width:100%;height:550px;opacity: 0.4;">
                     </div>
                     <div class="carousel-item">
                         <img src="./images/carousalImg2.jpg" alt="Chicago" class="d-block"
-                            style="width:100%;height:550px;">
+                            style="width:100%;height:550px;opacity: 0.4">
                     </div>
                     <div class="carousel-item">
                         <img src="./images/CarousalImg3.jpg" alt="New York" class="d-block"
-                            style="width:100%;height:550px;">
+                            style="width:100%;height:550px;opacity: 0.4">
                     </div>
+                </div>
+                <div class="carousalImg1">
+                    <h1 class="CarosalTextsub">Prepare The Best Dishes</h1>
+                    <h1 class="CarosalText1">Come & Experience Our Best Of World Class Cousine</h1>
+
                 </div>
 
                 <!-- Left and right controls/icons -->
@@ -438,14 +443,14 @@
                     <div class="row">
                         <ul class="nav nav-tabs menu_tab mb-4" id="myTab" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" id="breakfast-tab" data-toggle="tab" href="#breakfast"
+                                <a class="nav-link active"  data-toggle="tab" href="#breakfast"
                                     role="tab">Breakfast</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="lunch-tab" data-toggle="tab" href="#lunch" role="tab">Lunch</a>
+                                <a class="nav-link"  data-toggle="tab" href="#breakfast1" role="tab">Lunch</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" id="dinner-tab" data-toggle="tab" href="#dinner"
+                                <a class="nav-link"  data-toggle="tab" href="#dinner"
                                     role="tab">Dinner</a>
                             </li>
                         </ul>
@@ -453,7 +458,7 @@
                     <div class="row">
                         <div class="tab-content col-lg-12" id="myTabContent">
                             <div class="tab-pane fade show active" id="breakfast" role="tabpanel"
-                                aria-labelledby="breakfast-tab">
+                                >
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="single_menu">
@@ -525,7 +530,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="lunch" role="tabpanel" aria-labelledby="lunch-tab">
+                            <div class="tab-pane fade" id="breakfast1" role="tabpanel" >
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="single_menu">
@@ -597,7 +602,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="dinner" role="tabpanel" aria-labelledby="dinner-tab">
+                            <div class="tab-pane fade" id="dinner" role="tabpanel">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="single_menu">
@@ -677,13 +682,11 @@
         </div>
         <div id="about" class="tab-pane  vh-100"><br>
             <div class="wrapper">
-
                 <h2>Our Menu</h2>
-
                 <div class="buttons-container">
-                    <a href="#" class="button button--is-active" data-target="pizzaMenu">Pizzas</a>
-                    <a href="#" class="button" data-target="coffeeMenu">Coffee</a>
-                    <a href="#" class="button" data-target="noodlesMenu">Noodles</a>
+                    <a href="#pizzaMenu" class="button button--is-active" data-target="pizzaMenu">Pizzas</a>
+                    <a href="#coffeeMenu" class="button" data-target="coffeeMenu">Coffee</a>
+                    <a href="#noodlesMenu" class="button" data-target="noodlesMenu">Noodles</a>
                 </div>
 
                 <!-- Start Pizza Menu -->
@@ -1182,6 +1185,7 @@
     </div>
 
     </div>
+    
 </body>
 
 </html>
