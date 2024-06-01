@@ -26,29 +26,32 @@
                                 style="height:50px; width:50px;margin-left:10px" />
                             <a class="navbar-brand logoLabel" href="#">CHOW</a>
                         </div>
+                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbar-nav" aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle-navigation">
+                        <span clas="navbar-toggler-icon"></span></button> -->
 
                         <div class="col">
                             <ul class="navbar-nav" role="tablist">
                                 <li class="nav-item navLabel">
-                                    <a class="nav-link " data-bs-toggle="tab" href="#home">Home</a>
+                                    <a class="nav-link " onclick="showTab(event, 'home')" href="#home">Home</a>
                                 </li>
                                 <li class="nav-item navLabel">
-                                    <a class="nav-link " data-bs-toggle="tab" href="#recipe">Recipe</a>
+                                    <a class="nav-link " onclick="showTab(event, 'recipe')" href="#recipe">Recipe</a>
                                 </li>
                                 <li class="nav-item navLabel">
-                                    <a class="nav-link " data-bs-toggle="tab" href="#about">About</a>
+                                    <a class="nav-link " onclick="showTab(event, 'about')" href="#about">About</a>
                                 </li>
                                 <li class="nav-item navLabel">
-                                    <a class="nav-link " data-bs-toggle="tab" href="#gallery">Gallery</a>
+                                    <a class="nav-link " onclick="showTab(event, 'gallery')" href="#gallery">Gallery</a>
                                 </li>
                                 <li class="nav-item navLabel">
-                                    <a class="nav-link " data-bs-toggle="tab" href="#shop">Shop</a>
+                                    <a class="nav-link " onclick="showTab(event, 'shop')" href="#shop">Shop</a>
                                 </li>
                                 <li class="nav-item navLabel">
-                                    <a class="nav-link " data-bs-toggle="tab" href="#events">Events</a>
+                                    <a class="nav-link " onclick="showTab(event, 'events')" href="#events">Events</a>
                                 </li>
                                 <li class="nav-item navLabel">
-                                    <a class="nav-link " data-bs-toggle="tab" href="#contact">Contact Us</a>
+                                    <a class="nav-link " onclick="showTab(event, 'contact')" href="#contact">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -148,7 +151,8 @@
                                     class="w-100 card-img-top" style="height:220px">
                                 <div class="p-4">
                                     <h5 class="mb-0">Salads</h5>
-                                    <p class="small text-muted">In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus.</p>
+                                    <p class="small text-muted">In consequat, quam id sodales hendrerit, eros mi
+                                        molestie leo, nec lacinia risus.</p>
                                     <ul class="social mb-0 list-inline mt-3">
                                         <li class="list-inline-item m-0"><a href="#" class="social-link"><i
                                                     class="fab fa-facebook-f"></i></a></li>
@@ -171,7 +175,8 @@
                                     class="w-100 card-img-top" style="height:220px">
                                 <div class="p-4">
                                     <h5 class="mb-0">Fish & Meat</h5>
-                                    <p class="small text-muted">In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus.</p>
+                                    <p class="small text-muted">In consequat, quam id sodales hendrerit, eros mi
+                                        molestie leo, nec lacinia risus.</p>
                                     <ul class="social mb-0 list-inline mt-3">
                                         <li class="list-inline-item m-0"><a href="#" class="social-link"><i
                                                     class="fab fa-facebook-f"></i></a></li>
@@ -194,7 +199,8 @@
                                     class="w-100 card-img-top" style="height:220px">
                                 <div class="p-4">
                                     <h5 class="mb-0">Desserts</h5>
-                                    <p class="small text-muted">In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus.</p>
+                                    <p class="small text-muted">In consequat, quam id sodales hendrerit, eros mi
+                                        molestie leo, nec lacinia risus.</p>
                                     <ul class="social mb-0 list-inline mt-3">
                                         <li class="list-inline-item m-0"><a href="#" class="social-link"><i
                                                     class="fab fa-facebook-f"></i></a></li>
@@ -217,7 +223,8 @@
                                     class="w-100 card-img-top" style="height:220px">
                                 <div class="p-4">
                                     <h5 class="mb-0">Salads</h5>
-                                    <p class="small text-muted">In consequat, quam id sodales hendrerit, eros mi molestie leo, nec lacinia risus.</p>
+                                    <p class="small text-muted">In consequat, quam id sodales hendrerit, eros mi
+                                        molestie leo, nec lacinia risus.</p>
                                     <ul class="social mb-0 list-inline mt-3">
                                         <li class="list-inline-item m-0"><a href="#" class="social-link"><i
                                                     class="fab fa-facebook-f"></i></a></li>
@@ -440,25 +447,10 @@
                             </div>
                         </div>
                     </div>
+                  
                     <div class="row">
-                        <ul class="nav nav-tabs menu_tab mb-4" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active"  data-toggle="tab" href="#breakfast"
-                                    role="tab">Breakfast</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link"  data-toggle="tab" href="#breakfast1" role="tab">Lunch</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link"  data-toggle="tab" href="#dinner"
-                                    role="tab">Dinner</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="row">
-                        <div class="tab-content col-lg-12" id="myTabContent">
-                            <div class="tab-pane fade show active" id="breakfast" role="tabpanel"
-                                >
+                        <!-- <div class="tab-content col-lg-12" id="myTabContent">
+                            <div class="tab-pane fade show active" id="breakfast"> -->
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="single_menu">
@@ -529,8 +521,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="breakfast1" role="tabpanel" >
+                            <!-- </div> -->
+                            <!-- <div class="tab-pane fade" id="breakfast1" role="tabpanel"> -->
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="single_menu">
@@ -601,8 +593,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="dinner" role="tabpanel">
+                            <!-- </div> -->
+                            <!-- <div class="tab-pane fade" id="dinner" role="tabpanel"> -->
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="single_menu">
@@ -673,8 +665,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            <!-- </div> -->
+                        <!-- </div> -->
                         <a href="#" class=" menu_btn btn btn-danger">view more</a>
                     </div>
                 </div>
@@ -1068,7 +1060,7 @@
                             <path
                                 d="M464 256H48a48 48 0 0 0 0 96h416a48 48 0 0 0 0-96zm16 128H32a16 16 0 0 0-16 16v16a64 64 0 0 0 64 64h352a64 64 0 0 0 64-64v-16a16 16 0 0 0-16-16zM58.64 224h394.72c34.57 0 54.62-43.9 34.82-75.88C448 83.2 359.55 32.1 256 32c-103.54.1-192 51.2-232.18 116.11C4 180.09 24.07 224 58.64 224zM384 112a16 16 0 1 1-16 16 16 16 0 0 1 16-16zM256 80a16 16 0 1 1-16 16 16 16 0 0 1 16-16zm-128 32a16 16 0 1 1-16 16 16 16 0 0 1 16-16z" />
                         </svg>
-                        <a href="#">
+                        <a>
                             <h1 class="brewery-title">HAPPY BURGUER <span>Hamburguesería</span></h1>
                         </a>
                     </div>
@@ -1185,7 +1177,24 @@
     </div>
 
     </div>
-    
+    <script>
+        function showTab(event, tabId) {
+            event.preventDefault();
+            var tabContents = document.querySelectorAll(".tab-pane");
+            tabContents.forEach(function (tabContent) {
+                tabContent.classList.remove("show", "active");
+            });
+
+            var tabLinks = document.querySelectorAll(".nav-link");
+            tabLinks.forEach(function (tabLink) {
+                tabLink.classList.remove("active");
+            });
+
+            document.getElementById(tabId).classList.add("show", "active");
+            event.currentTarget.classList.add("active");
+        }
+    </script>
+
 </body>
 
 </html>

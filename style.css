@@ -431,7 +431,7 @@ body {
 }
 
 .nav-link {
-	color: #000;
+	color: white;
 }
 
 .nav-tabs .nav-link {
@@ -673,7 +673,7 @@ h2 {
 body {
 	overflow-x: hidden;
 	font: 400 16px/1.8 'Crimson Text', serif;
-	color: #666;
+	color: white;
 }
 
 img {
@@ -687,7 +687,7 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #999;
+	color: white;
 }
 
 /* ---------------------------------------------- /*
@@ -758,7 +758,7 @@ h5,
 h6 {
 	font: 700 54px/1.2 'Crimson Text', serif;
 	margin: 0 0 20px;
-	color: #000;
+	color: white;
 }
 
 h2 {
@@ -801,7 +801,7 @@ blockquote .small {
 	display: block;
 	font-size: 40%;
 	line-height: 1.42857143;
-	color: #999;
+	color: white;
 }
 
 .intro-title,
@@ -2030,7 +2030,7 @@ textarea.form-control {
 	h6 {
 		font: 700 38px/1.2 'Crimson Text', serif;
 		margin: 0 0 20px;
-		color: #000;
+		color: white;
 	}
 
 	h2 {
@@ -2095,7 +2095,7 @@ textarea.form-control {
 
 .sli-examples .item:hover {
 	background: #f0f0f0;
-	color: #000;
+	color: white;
 }
 
 .sli-examples .item {
