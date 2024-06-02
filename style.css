@@ -272,6 +272,90 @@ body {
 	height: 10px;
 }
 
+/* about */
+
+
+
+ .hov-img * {
+	box-sizing: border-box;
+}
+
+.hov-img {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: 500px;
+	margin-bottom: 10px;
+}
+
+.hov-img img {
+	max-width: 100%;
+}
+.hov-img-bottom {
+	display: block;
+}
+
+.hov-img-top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+    right: 0;
+	bottom: 0;
+    left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.hov-img:hover .hov-img-top {
+	opacity: 1;
+}
+
+.hov-img-text {
+	text-align: center;
+	font-size: 18px;
+	display: inline-block;
+	position: absolute;
+	text-shadow: black .2em .2em .2em; 
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.hov-img-text h5{
+	font-size: 25px;
+
+
+}
+
+.hov-img-text p {
+	font-size: 15px;
+	line-height: 1.2em;
+}
+
+.hov-img-slideup {
+	-moz-transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	-ms-transform: translateY(100%);
+	transform: translateY(100%);
+}
+
+.hov-img:hover .hov-img-slideup {
+	-moz-transform: translateY(0);
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+
 .__area {
 	font-family: 'Cairo', sans-serif;
 	color: #7c7671;
@@ -1149,6 +1233,8 @@ textarea.form-control {
 
 .module-header {
 	text-align: center;
+	/* display: flex; */
+	/* justify-content: center; */
 	margin: 0 0 60px;
 }
 
