@@ -105,10 +105,6 @@
 }
 
 
-
-
-
-
 img {
 	height: 150px;
 	width: 100%;
@@ -198,10 +194,10 @@ img {
 	justify-content: center;
 }
 
-body {
+/* body {
 	min-height: 100vh;
 	background: #fafafa;
-}
+} */
 
 .carousalImg1 {
 	position: absolute;
@@ -214,6 +210,7 @@ body {
 
 .CarosalTextsub {
 	color: #dedede;
+	opacity: 0.9;
 	font-size: 25px;
 	font-family: 'Dancing Script', cursive;
 	flex-grow: 1;
@@ -224,6 +221,7 @@ body {
 
 .CarosalText1 {
 	color: white;
+	opacity: 0.8;
 	font-size: 35px;
 	font-family: 'Times New Roman', Times, serif;
 	flex-grow: 1;
@@ -231,13 +229,15 @@ body {
 	text-align: center;
 	text-decoration: none;
 }
-.aboutUsBox{
+
+.aboutUsBox {
 	display: flex;
 	padding: 20px;
 	justify-content: center;
-	border:3px solid  white;
+	border: 3px solid white;
 	opacity: 0.7;
 }
+
 .aboutUsBoxText {
 	color: white;
 	font-size: 18px;
@@ -275,9 +275,20 @@ body {
 
 /* about */
 
+.hov-img1 * {
+	box-sizing: border-box;
+}
 
+.hov-img1 {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: 500px;
+	margin-bottom: 10px;
+}
 
- .hov-img * {
+.hov-img * {
 	box-sizing: border-box;
 }
 
@@ -289,6 +300,7 @@ body {
 	height: 500px;
 	margin-bottom: 10px;
 }
+
 .hov-img1 {
 	position: relative;
 	display: inline-block;
@@ -300,6 +312,7 @@ body {
 .hov-img img {
 	max-width: 100%;
 }
+
 .hov-img-bottom {
 	display: block;
 }
@@ -308,9 +321,9 @@ body {
 	opacity: 0;
 	position: absolute;
 	top: 0;
-    right: 0;
+	right: 0;
 	bottom: 0;
-    left: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 	background: rgba(0, 0, 0, 0.6);
@@ -330,7 +343,7 @@ body {
 	font-size: 18px;
 	display: inline-block;
 	position: absolute;
-	text-shadow: black .2em .2em .2em; 
+	text-shadow: black .2em .2em .2em;
 	top: 50%;
 	left: 50%;
 	-moz-transform: translate(-50%, -50%);
@@ -338,10 +351,9 @@ body {
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
-.hov-img-text h5{
+
+.hov-img-text h5 {
 	font-size: 25px;
-
-
 }
 
 .hov-img-text p {
@@ -517,7 +529,7 @@ body {
 /* /Menu starts/ */
 .menu_tab {
 	margin: 0 auto;
-	margin-bottom: 18px;
+	/* margin-bottom: 18px; */
 	justify-content: center;
 }
 
@@ -642,12 +654,14 @@ body {
 	top: 0;
 	left: 0;
 }
-.viewMoreButton{
+
+.viewMoreButton {
 	text-decoration: none;
 	color: red;
 }
-.viewMoreButton:hover{
-	color:white;
+
+.viewMoreButton:hover {
+	color: white;
 }
 
 
@@ -2470,8 +2484,9 @@ textarea.form-control {
 :root {
 	--secondary-color: white;
 	--contrast-color: black;
-  }
-  .overlay {
+}
+
+.overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2480,9 +2495,9 @@ textarea.form-control {
 	height: 100%;
 	z-index: -10;
 	background-color: var(--contrast-color);
-  }
-  
-  .container .contactcontainer{
+}
+
+.container .contactcontainer {
 	display: flex;
 	height: 100vh;
 	justify-content: space-around;
@@ -2494,25 +2509,25 @@ textarea.form-control {
 	/* margin-top: -300px; */
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	transition: all .8s ease;
-  }
-  
-  .container_content {
-   width: 100%;
-  }
-  
-  .container_content_inner {
+}
+
+.container_content {
+	width: 100%;
+}
+
+.container_content_inner {
 	width: 80%;
 	margin-left: 80px;
-  }
-  
-  .container_outer_img {
+}
+
+.container_outer_img {
 	margin: 50px;
 	width: 100%;
 	overflow: hidden;
-  }   
-	  
-  .cf {
-	height:600px;
+}
+
+.cf {
+	height: 600px;
 	width: 100%;
 	max-width: 100%;
 	margin-top: -100px;
@@ -2520,7 +2535,7 @@ textarea.form-control {
 	margin: 20px auto;
 	background-color: black;
 	animation: slideIn 1.5s ease-in-out forwards;
-  }
+}
 
 
 
@@ -2529,170 +2544,213 @@ textarea.form-control {
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 
 
-*, 
-*:before, 
+*,
+*:before,
 *:after {
-   @include box-sizing(border-box); 
+	@include box-sizing(border-box);
 }
 
-html, body {
-  /* background: #f1f1f1; */
-  font-family: 'Merriweather', sans-serif;
-  padding: 1em;
+html,
+body {
+	/* background: #f1f1f1; */
+	font-family: 'Merriweather', sans-serif;
+	padding: 1em;
 }
 
-.labelcontact{
+.labelcontact {
 	color: white;
 }
 
-.inputtext{
-   border:0; 
-   outline:0;
-   margin: 12px;
-   padding: 1em;
-   display: block;
-   width: 100%;
-   margin-top: 22px;
-   border-radius: 5px;
-   font-family: 'Merriweather', sans-serif;
-    box-shadow:0 1px 1px rgba(black, 0.1);
-   resize: none;
+.inputtext {
+	border: 0;
+	outline: 0;
+	margin: 12px;
+	padding: 1em;
+	display: block;
+	width: 100%;
+	margin-top: 22px;
+	border-radius: 5px;
+	font-family: 'Merriweather', sans-serif;
+	box-shadow: 0 1px 1px rgba(black, 0.1);
+	resize: none;
 }
 
-.inputtext:focus, .inputtext:focus {
- box-shadow:0 0px 2px rgba(#e74c3c, 1)!important;
+.inputtext:focus,
+.inputtext:focus {
+	box-shadow: 0 0px 2px rgba(#e74c3c, 1) !important;
 }
 
 .submitButtonContact {
-   color: white; 
-   background: #e74c3c;
-   cursor: pointer;
-   width: 100%;
-   margin-left: 12px;
-   height: 48px;
-   margin-top: 12px;
-   border-radius: 8px;
+	color: white;
+	background: #e74c3c;
+	cursor: pointer;
+	width: 100%;
+	margin-left: 12px;
+	height: 48px;
+	margin-top: 12px;
+	border-radius: 8px;
 }
 
 .submitButtonContact:hover {
-box-shadow:0 1px 1px 1px rgba(#aaa, 0.6); 
+	box-shadow: 0 1px 1px 1px rgba(#aaa, 0.6);
 }
 
 textarea {
-    height: 126px;
+	height: 126px;
 }
 
 .half {
-  float: left;
-  margin-bottom: 12px;
-  width: 90%;
-  /* margin-bottom: 1em; */
+	float: left;
+	margin-bottom: 12px;
+	width: 90%;
+	/* margin-bottom: 1em; */
 }
 
-.right { width: 50%; }
+.right {
+	width: 50%;
+}
 
 .left {
-     margin-right: 2%; 
+	margin-right: 2%;
 }
 
 @media (max-width: 480px) {
-  .half {
-     width: 100%; 
-     float: none;
-     margin-bottom: 0; 
-  }
+	.half {
+		width: 100%;
+		float: none;
+		margin-bottom: 0;
+	}
 }
 
 /* Clearfix */
 .cf:before,
 .cf:after {
-    content: " ";
-    display: table;
+	content: " ";
+	display: table;
 }
 
 .cf:after {
-    clear: both;
+	clear: both;
 }
 
-  
-  .par {
+
+.par {
 	height: auto;
 	overflow: hidden;
-  }
-  
-  .contactp{
+}
+
+.contactp {
 	line-height: 28px;
 	color: white;
 	transform: translateY(300px);
 	animation: slideUp .8s ease-in-out forwards .8s;
-  }
-  
-  .btns {
+}
+
+.btns {
 	height: 100%;
 	position: relative;
 	width: 150px;
 	overflow: hidden;
-  }
-  
-  .btns_more {
+}
+
+.btns_more {
 	background: transparent;
-	border: 1px solid #BF307F ;
+	border: 2px solid #a94442;
 	border-radius: 50px;
 	padding: 8px 12px;
-	color: #BF307F;
+	color: #a94442;
 	font-size: 16px;
 	text-transform: uppercase;
 	position: relative;
 	margin-top: 15px;
 	outline: none;
 	transform: translateY(50px);
-	animation: slideUp .8s ease-in-out  forwards 1s;
-  }
-  .btns_more:hover{
-	background: #BF307F;
+	animation: slideUp .8s ease-in-out forwards 1s;
+}
+
+.btns_more:hover {
+	background: #a94442;
 	color: black;
 
-  }
-  
-  .title3 {
+}
+
+.title3 {
 	overflow: hidden;
 	margin-top: 100px;
 	height: auto;
-  }
-  
-.contacth1{
-	  font-size: 40px;
-	  color: #BF307F;
-	  margin-bottom: 20px;
-	  transform: translateY(100px);
-	  animation: slideUp .8s ease forwards .5s;
-  }
-  
-  @keyframes slideIn {
+}
+
+.contacth1 {
+	font-size: 40px;
+	color: #a94442;
+	margin-bottom: 20px;
+	transform: translateY(100px);
+	animation: slideUp .8s ease forwards .5s;
+}
+
+@keyframes slideIn {
 	0% {
-	  transform: translateX(500px) scale(.2);
+		transform: translateX(500px) scale(.2);
 	}
+
 	100% {
-	  transform: translateX(0px) scale(1);
+		transform: translateX(0px) scale(1);
 	}
-  }
-  
-  @keyframes slideUp {
+}
+
+@keyframes slideUp {
 	0% {
-	  transform: translateY(300px);
+		transform: translateY(300px);
 	}
+
 	100% {
-	  transform: translateY(0px);
+		transform: translateY(0px);
 	}
-  }
-  
-  @keyframes expand {
+}
+
+@keyframes expand {
 	0% {
-	  transform: translateX(1400px);
+		transform: translateX(1400px);
 	}
+
 	100% {
-	  transform: translateX(0px);
+		transform: translateX(0px);
 	}
-  }
-  
-  
+}
+
+/* ==== Cards using Bootstrap === */
+
+#cards .card {
+	border-radius: 20px;
+	min-height: 100%;
+}
+
+#cards .heading-border {
+	position: absolute;
+	width: 100%;
+	top: 60%;
+}
+
+.user-picture {
+	height: 20px;
+	width: 20px;
+}
+
+#cards .card .user-picture img {
+	position: absolute;
+	top: -15%;
+	right: 10%;
+	background: #f8f9fa !important;
+	padding: 10px;
+}
+
+#cards .card .user-content .user-name {
+	margin-right: 150px;
+}
+
+.displayorurTeam {
+	color:white;
+	font-family: 'Cairo', sans-serif;
+	font-weight: 600;
+	font-size: 29px;
+}
